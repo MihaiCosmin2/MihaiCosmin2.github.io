@@ -97,9 +97,3 @@ p {
     margin-top: 40px;
 }
 
-@media (max-width: 600px) {
-    .convertor-container {
-        width: 100%;
-        margin: 5px 0;
-    }
-}
