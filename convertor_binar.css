@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to bottom,#1f002f , #6500b3, #9000ff);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.wrapper {
+    height: 500px;
+    width: 550px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+    background: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* justify-content: center; */
+
+    background-image: url(backround_binar_conv.webp);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: overlay;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px;
+    font-size: 40px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.wrapper header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.select-area {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.drop-list {
+    display: flex;
+    width: 100%;  
+    justify-content: space-around;
+}
+
+.input-area {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.select-box, .input-area input {
+    width: 100%; 
+    outline: none;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;  
+}
+
+.input-area input {
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid green;
+    width: 100%;
+}
+
+.input-area input:focus {
+    border: 1px solid rgb(4, 0, 255);
+    /* box-sizing: border-box; */
+}
+
+.conv-button {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.result-area {
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .convertor-container {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

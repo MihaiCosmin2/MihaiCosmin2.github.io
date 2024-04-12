@@ -1,0 +1,92 @@
+body, html {
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+body {
+    background: linear-gradient(to bottom,#1f002f , #6500b3, #9000ff);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.content-block, .convertor, .main-content {
+    position: relative;
+    z-index: 1; 
+}
+
+.content-block {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.main-content {
+    flex: 4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ads {
+    flex: 1;
+    width: 70px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: auto;
+    right: 0;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ad-image {
+    cursor: pointer;
+    width: 70%;
+    height: 100%;
+    position: sticky;
+    right: 0;
+    display: none;
+    margin-top: 40px;
+}
+
+
+.convertor {
+    display: column;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    /* flex: 1 1 30%; */
+    padding: 10px;
+    
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.convertor img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(202, 7, 7, 0.1);
+}
+
+.convertor:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 600px) {
+    .convertor-container {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

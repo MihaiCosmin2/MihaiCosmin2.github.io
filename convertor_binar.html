@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>binary-converter</title>
+    <link rel="stylesheet" href="convertor_binar.css">
+    <link rel="stylesheet" href="header_styling.css">
+    <link rel="icon" href="imagine_ico.ico">
+</head>
+<body>
+
+
+    <header class="page-header">
+        <img src="logo_cosmin.webp" alt="website's logo" class="logo">  
+        
+            <div class="off-screen-menu">
+                 <ul>
+                    <li><a href="proiect.html">Home</a></li>
+                    <li><a href="convertor_binar.html">Base Convertor</a></li>
+                <li><a href="convertor_lungime.html">Length Convertor</a></li>
+                <li><a href="convertor_temperatura.html">Temperature Convertor</a></li>
+                    <li><a href="">About</a></li>
+                 </ul>
+            </div>
+    
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    
+        </header>
+
+
+    <div class="wrapper">
+        <h1>Base Converter</h1>
+        <div class="select-area">
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <select>
+                            <option value="Binary">Binary</option>
+                            <option value="Decimal">Decimal</option>
+                            <option value="Octal">Octal</option>
+                            <option value="Hexadecimal">Hexadecimal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <select>
+                            <option value="Binary">Binary</option>
+                            <option value="Decimal">Decimal</option>
+                            <option value="Octal">Octal</option>
+                            <option value="Hexadecimal">Hexadecimal</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <p>Enter Number</p>
+                <input type="number">
+            </div>
+            
+            <div class="conv-button">
+            <button type="button" onclick="convert()">Convert</button>
+            </div>
+
+            <div class="result-area">
+                <div id="result" style="min-height: 30px; border: 1px solid #ccc; padding: 5px; background-color: #f9f9f9; color: #333;">Result goes here</div>
+            </div>
+
+        </div>
+    </div>
+    <script src="Untitled-1.js"></script>
+</body>
+</html>
